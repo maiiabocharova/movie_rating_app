@@ -4,6 +4,11 @@
 
 ### Install dependencies
 `pip install -r requirements.txt`
+
+### To create a db (here it's already created, but if you want to delete it and reproduce) you need to run in your terminal
+```python
+python3 app/models.py
+```
 ### To run the app:
 ```python
 python3 app/main.py
