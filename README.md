@@ -1,6 +1,18 @@
 ## Environment:
 - Python version: 3.10
-- FastAPI version: 3.0.6
+- FastAPI
+
+### Install dependencies
+`pip install -r requirements.txt`
+### To run the app:
+```python
+python3 app/main.py
+```
+### To run tests:
+```python
+cd app
+pytest
+```
 
 ## Read-Only Files:
 - app/tests.py
